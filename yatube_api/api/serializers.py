@@ -72,7 +72,7 @@ class FollowCreateSerializer(serializers.ModelSerializer):
             "following",
         )
 
-    def validate_following_username(self, value):
+    def validate_following(self, value):
         try:
             User.objects.get(username=value)
         except User.DoesNotExist:
