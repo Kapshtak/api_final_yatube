@@ -63,7 +63,3 @@ class Follow(models.Model):
 
     def __str__(self):
         return f"{self.user} фолловит {self.following}"
-
-
-class Test(models.Model):
-    text = models.TextField()

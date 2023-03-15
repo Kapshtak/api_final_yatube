@@ -8,7 +8,7 @@ router = DefaultRouter()
 
 router.register("posts", PostViewSet)
 router.register("groups", GroupViewSet)
-router.register("follow", FollowViewSet)
+router.register("follow", FollowViewSet, basename="followers")
 router.register(
     r"posts/(?P<post_id>[\d.]+)/comments",
     CommentViewSet,
