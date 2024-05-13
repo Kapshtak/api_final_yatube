@@ -1,7 +1,7 @@
 # Project API_yatube
 
 ## Project description:
-This project is an API implementation of partial functionality for a social network, including creating posts, groups, comments to posts. Also the functionality of subscribing to other users is partially implemented.
+This project is an API implementation of partial functionality for a social network, including creating posts, groups, comments on posts. The functionality of subscribing to other users is also partially implemented.
 
 ## How to start a project:
 - Clone the repository: 
